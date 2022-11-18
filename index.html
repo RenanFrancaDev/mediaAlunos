@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calcular média alunos</title>
+        <meta charset="utf-8">
+        
+        <script src="frame.js"></script>
+		<style>
+			
+			form{
+				display: flex;
+				flex-wrap: wrap;
+				width: 100%;
+			}
+			label{
+				width: 20%;
+				box-sizing: border-box;
+				
+			}
+			input{
+				display: block;
+				box-sizing: border-box;
+				margin-bottom: 5px;
+			}
+
+			th, td{
+				margin: 5px;
+				padding: 10px;
+				border-bottom: 1px solid gray;
+			}
+
+			
+
+			
+		</style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Alunos 1º Ano Turma A - 2022</h1>
+			<div id="container-input">
+				<form>
+					<label for="name">Nome<input type="text" id="name" value="" required autofocus></label>
+					<label for="n1">1º Bimestre<input type="number" id="n1" value="" required></label>
+					<label for="n2">2º Bimestre<input type="number" id="n2" value="" required></label>
+					<label for="n3">3º Bimestre<input type="number" id="n3" value="" required></label>
+					<label for="n4">4º Bimestre<input type="number" id="n4" value="" required></label>
+				
+					<input type="button" onclick="addAluno()" id="button-add-aluno" value="Calcular">
+					</form>
+        </div>
+        <section>
+        	<div class="container container-table">
+	        
+		      	<h2>Média dos alunos</h2>
+				<table class="table js-tabela">
+					<thead>
+						<tr>
+							<th>Nome</th>
+							<th>Nota 1</th>
+							<th>Nota 2</th>
+							<th>Nota 3</th>
+							<th>Nota 4</th>
+							<th>Média</th>
+							<th>Resultado Final</th>
+						</tr>
+					</thead>
+					<tbody id="table-body">
+						<tr class="aluno" >
+							<td class="aluno-nome">Aluno 1</td>
+							<td class="aluno-n1">10</td>
+							<td class="aluno-n2">7</td>
+							<td class="aluno-n3">4</td>
+							<td class="aluno-n4">8</td>	
+							<td class="aluno-m"></td>
+							<td class="aluno-resultado"></td>
+						</tr>
+					</tbody>
+				</table>
+	        	
+        	</div>	
+        </section>
+
+		<script src="./events.js"></script>
+        
+    </body>
+</html>
