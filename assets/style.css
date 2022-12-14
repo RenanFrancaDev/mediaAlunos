@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(32, 62, 107);
+}
+.container{
+    margin: 50px 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(216, 225, 250);
+}
+
+
+h1{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+h2{
+    margin: 0 0 20px 0
+}
+
+#container-input{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 100%;
+}
+
+label{
+    box-sizing: border-box;
+    
+}
+
+.input-aluno{
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+#button-add-aluno{
+    margin-top: 20px;
+    padding: 10px 80px;
+    border-radius: 20px;
+}
+
+th, td{
+    margin: 5px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
