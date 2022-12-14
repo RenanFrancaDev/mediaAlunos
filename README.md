@@ -3,6 +3,7 @@
 Projeto criado com o objetivo simular um programa de escola/universidade, para computar as informações no sistema, realizando o cálculo automático.
 
 - Manipulação do HTML;
+- localStorage
 - Formulários;
 - Tabelas;
 - Flexbox;
@@ -13,8 +14,7 @@ Projeto criado com o objetivo simular um programa de escola/universidade, para c
 - Criar um sistema simples;
 - Manipular o HTML;
 - Realizar calculos simples, com o retorno de status;
-
-* Será implementado um banco de dados para armazenar as informações.
+- Local Storage usado apra armazenar os dados "inputados"
 
 
 ## 🛠 Tecnologias
